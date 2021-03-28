@@ -1,5 +1,5 @@
 .solver {
-  background-color: blue;
+  /* background-color: blue; */
   width: 100%;
   margin-top: 20vh;
   display: flex;
@@ -12,24 +12,24 @@
 
 .solver-middle {
   width: 1rem;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .solver-left {
-  background-color: green;
+  /* background-color: green; */
 }
 
 .solver-right {
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
-.description, .step {
-  background-color: orange;
+.input, .step-initial {
+  /* background-color: red; */
+  height: 5rem;
+}
+
+.description, .step-next {
+  /* background-color: orange; */
   height: 4rem;
   margin-top: 1rem;
-}
-
-.input, .initial-step {
-  background-color: red;
-  height: 5rem;
 }

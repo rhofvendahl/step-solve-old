@@ -6,7 +6,7 @@ type StepProps = {
 }
 const Step = ({ initial }: StepProps) => {
   return (
-    <div className={initial ? 'initial-step' : 'step'}>
+    <div className={initial ? 'step step-initial' : 'step step-next'}>
     </div>
   );
 };
